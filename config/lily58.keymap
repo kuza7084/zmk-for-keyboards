@@ -66,8 +66,8 @@
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1                      &bt BT_SEL 2                      &bt BT_SEL 3                      &bt BT_SEL 4                                      &kp C_AL_CALCULATOR  &kp KP_NUMLOCK   &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_SUBTRACT  &none
 &none       &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(126,47,35)  &rgb_ug RGB_COLOR_HSB(172,49,39)  &rgb_ug RGB_COLOR_HSB(25,100,50)  &rgb_ug RGB_COLOR_HSB(0,0,100)                    &none                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &none
-&none       &rgb_ug RGB_ON   &rgb_ug RGB_HUI                   &rgb_ug RGB_SAI                   &rgb_ug RGB_BRI                   &none                                             &none                &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ENTER     &none
-&none       &rgb_ug RGB_OFF  &rgb_ug RGB_HUD                   &rgb_ug RGB_SAD                   &rgb_ug RGB_BRD                   &none                           &trans    &trans  &none                &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp BACKSPACE    &kp DELETE
+&trans      &rgb_ug RGB_ON   &rgb_ug RGB_HUI                   &rgb_ug RGB_SAI                   &rgb_ug RGB_BRI                   &none                                             &none                &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ENTER     &none
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_HUD                   &rgb_ug RGB_SAD                   &rgb_ug RGB_BRD                   &none                           &trans    &trans  &none                &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp BACKSPACE    &kp DELETE
                                                                &trans                            &trans                            &trans                          &trans    &to 0   &none                &kp KP_NUMBER_0  &kp KP_DOT
             >;
         };
