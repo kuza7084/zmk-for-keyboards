@@ -4,10 +4,16 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: petejohanson
       url-base: https://github.com/petejohanson
+    - name: kuza7084
+      url-base: https://github.com/kuza7084
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-lily58-extras
+      remote: kuza7084
+      revision: main
+      path: modules/zmk-lily58-extras
   self:
     path: config
